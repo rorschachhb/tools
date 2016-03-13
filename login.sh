@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This script handles login/logout in Tsinghua University
+# Usage 1: ./login.sh login username passwd
+# Usage 2: ./login.sh logout
+# Note that using this script will save your password in bash history
+# but it's fine as long as it's your personal computer
+
 if [ "$#" -eq "0" ]; then
 	parse=invalid	
 elif [ "$1" == "login" ]; then

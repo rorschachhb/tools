@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Check if the ip of this machine has changed since last time.
+# If the ip is changed, mail me.
+# I usually add this script to crontab.
+
 current_ip=`ifconfig | grep 'inet addr:' | grep -v '127.0.0.1' | cut -d : -f2 | awk '{print $1}'`
 
 if [ -f /tmp/ip.txt ]; then
