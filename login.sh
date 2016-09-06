@@ -7,7 +7,7 @@
 # but it's fine as long as it's your personal computer
 
 if [ "$#" -eq "0" ]; then
-	parse=invalid	
+	parse=invalid
 elif [ "$1" == "login" ]; then
 	if [ "$#" -lt "3" ]; then
 		parse=invalid

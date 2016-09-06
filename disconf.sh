@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configure resolution of external monitor.
-# This is useful because OS like Ubuntu and Debian can't handle this 
-# correctly, expecially on laptops.For example, on my 1920*1080 
+# This is useful because OS like Ubuntu and Debian can't handle this
+# correctly, expecially on laptops.For example, on my 1920*1080
 # PHILIPS monitor, the default resolution is only 1024*768.
 # Usage: ./disconf 1 // if your external monitor is called VGA1
 
